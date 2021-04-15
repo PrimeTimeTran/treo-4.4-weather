@@ -46,7 +46,7 @@ class App extends React.Component {
     if (!this.state.weather) return <h1>Loading!</h1>;
     return (
       <div className="App">
-        <h1>Weather app!</h1>
+        <h1>Class Based Component Weather app!</h1>
         <h3>{this.state.weather.name}</h3>
         <h3>{this.state.weather.main.temp}</h3>{" "}
       </div>
